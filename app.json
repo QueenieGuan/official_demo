@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "page/mapPage/index",
+
+    "page/functions/index",
+    "page/functions/search/index",
+    "page/functions/nearby/index",
+    "page/functions/detail/index",
+    "page/functions/searchResult/index",
+
+    "page/mine/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "演示",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "page/mapPage/index",
+      "iconPath": "image/map.png",
+      "selectedIconPath": "image/map_selected.png",
+      "text": "地图"
+    }, {
+      "pagePath": "page/functions/index",
+      "iconPath": "image/function.png",
+      "selectedIconPath": "image/function_selected.png",
+      "text": "功能"
+    }, {
+      "pagePath": "page/mine/index",
+      "iconPath": "image/me.png",
+      "selectedIconPath": "image/me_selected.png",
+      "text": "我"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}

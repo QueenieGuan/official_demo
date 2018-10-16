@@ -1,0 +1,31 @@
+.section {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #ffffff;
+  margin-bottom: 10px;
+}
+.section_title {
+  font-size: 16px;
+}
+.section_value {
+  font-size: 16px;
+  font-weight: 700;
+}
+.btn_area {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.submit_button {
+  width: 100px;
+  background: #1E90FF;
+}
+.reset_button {
+  width: 100px;
+}

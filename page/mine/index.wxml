@@ -1,0 +1,47 @@
+<view class="main">
+  <view class="head">
+    <view class="head_image">
+      <image class="avatar" src='{{userInfo.avatarUrl}}'></image>
+    </view>
+    <view class="nickname">{{userInfo.nickName}}</view>
+    <view class="setting_icon iconfont icon-setting"></view>
+  </view>
+  <view class="list">
+    <view class="list_item">
+      <view class="left_section">
+        <text class="favor_icon iconfont icon-favor_selected"></text>
+        <view class="icon_text">收藏</view>
+      </view>
+      <view class="right_section">
+        <text class="iconfont icon-left-arrow"></text>
+      </view>
+    </view>
+    <view class="list_item">
+      <view class="left_section">
+        <text class="comment_icon iconfont icon-comment"></text>
+        <view class="icon_text">评论</view>
+      </view>
+      <view class="right_section">
+        <text class="iconfont icon-left-arrow"></text>
+      </view>
+    </view>
+    <view class="list_item">
+      <view class="left_section">
+        <text class="footprint_icon iconfont icon-footprint"></text>
+        <view class="icon_text">足迹</view>
+      </view>
+      <view class="right_section">
+        <text class="iconfont icon-left-arrow"></text>
+      </view>
+    </view>
+    <view class="list_item">
+      <view class="left_section">
+        <text class="message_icon iconfont icon-message"></text>
+        <view class="icon_text">消息</view>
+      </view>
+      <view class="right_section">
+        <text class="iconfont icon-left-arrow"></text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,58 @@
+@import "./nearby/index.wxss";
+.main {
+  
+}
+.btn_group {
+  background: #FFFFFF;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.funcBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nearby_icon {
+  font-size: 36px;
+  color: #FF1493;
+}
+.search_icon {
+  font-size: 36px;
+  color: #1E90FF;
+}
+.compare_icon {
+  font-size: 36px;
+  color: #FFA500;
+}
+.function_name {
+  text-align: center;
+  font-size:12px;
+  margin-top:-10px;
+}
+.recommend {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.recommend_icon {
+  font-size: 24px; 	
+  color: #1E90FF;
+}
+.recommend_text {
+  font-size: 20px;
+  height: 24px;
+  font-weight: 700;
+  color: #FF8C00;
+  margin-left: 10px;
+}
+.list {
+  display: flex;
+  flex-flow: row wrap;
+  overflow-y: scroll;
+  width: 100%;
+}

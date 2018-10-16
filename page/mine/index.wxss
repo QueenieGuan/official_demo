@@ -1,0 +1,73 @@
+.main {
+  margin-bottom: 0;
+}
+.head {
+  width: 100%;
+  height: 120px;
+  background: #191970;
+  display: flex;
+  align-items: center;
+}
+.head_image {
+  border: solid 1px #ffffff;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+}
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.nickname {
+  color: #ffffff;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.list {
+  display: flex;
+  flex-flow: row wrap;
+}
+.list_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  width: 100%;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.left_section {
+  display: flex;
+  align-items: center;
+}
+.favor_icon {
+  color: #FF0000;
+  font-size: 32px;
+}
+.comment_icon {
+  color: #FF4500;
+  font-size: 32px;
+}
+.footprint_icon {
+  color: #00CED1;
+  font-size: 32px;
+}
+.icon_text {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.setting_icon {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: #ffffff;
+  font-size: 24px;
+}
+.message_icon {
+  color: #FF1493;
+  font-size: 32px;
+}

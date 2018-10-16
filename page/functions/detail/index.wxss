@@ -1,0 +1,124 @@
+.swiper {
+  width: 100%;
+  height: 250px;
+}
+.img{
+  width: 100%;
+  height: 250px;
+}
+.info {
+  background: #ffffff;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+.big_section {
+  display: flex;
+  justify-content: space-between; 
+}
+.small_section {
+  display: flex;
+  align-items: center;
+}
+.kindergarten_icon {
+  font-size: 24px;
+}
+.name {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: KaiTi;
+  margin-left: 10px;
+  height: 24px;
+  width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.price_icon {
+  font-size: 20px;
+  color: #1E90FF;
+}
+.star_icon {
+  font-size: 20px;
+  color: #FFD700;
+}
+.score_icon {
+  font-size: 20px;
+  color: #FFD700;
+}
+.route_icon {
+  font-size: 24px;
+  color: #00BFFF;
+}
+.text {
+  margin-left: 5px;
+}
+.bottom {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  background: #ffffff;
+}
+.comment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  border-right: solid 0.1px #D3D3D3;
+}
+.comment_icon {
+  color: #FF4500;
+  font-size: 32px;
+}
+.favor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.favor_icon {
+  color: #D3D3D3;
+  font-size: 32px;
+}
+.icon_text {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.info_list {
+  display: flex;
+  flex-flow: row wrap;
+}
+.list_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  width: 100%;
+  border-bottom: solid 0.1px #D3D3D3;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.left_section {
+  display: flex;
+  align-items: center;
+}
+.activity_icon {
+  color: #4B0082;
+  font-size: 24px;
+}
+.teacher_icon {
+  color: #1E90FF;
+  font-size: 24px;
+}
+.reputation_icon {
+  color: #FF0000;
+  font-size: 24px;
+}
+.comment_icon {
+  color: #FF8C00;
+  font-size: 24px;
+}

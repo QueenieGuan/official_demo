@@ -1,0 +1,81 @@
+<swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{duration}}" current="{{swiperCurrent}}" bindchange="swiperChange" class="swiper">    
+  <block wx:for="{{imgUrls}}" wx:key="unique">      
+    <swiper-item>        
+      <image src="{{item}}" class="img" bindtap="swipclick" />      
+    </swiper-item>    
+  </block>  
+</swiper>
+<view class="info">
+  <view class="big_section">
+    <view class="small_section">
+      <text class="kindergarten_icon iconfont icon-kindergarten"></text>
+      <view class="name">{{name}}</view>
+    </view>
+    <view class="small_section">
+      <text class="route_icon iconfont icon-route"></text>
+      <view class="text">{{distance}}公里</view>
+    </view>
+  </view>
+  <view class="big_section">
+    <view class="small_section">
+      <text class="price_icon iconfont icon-price"></text>
+      <view class="text">{{price}}</view>
+    </view>
+    <view class="small_section">
+      <text class="star_icon iconfont icon-star"></text>
+      <view class="text">{{star}}</view>
+    </view>
+    <view class="small_section">
+      <text class="score_icon iconfont icon-score"></text>
+      <view class="text">{{score}}分</view>
+    </view>
+  </view>
+</view>
+<view class="info_list">
+  <view class="list_item">
+    <view class="left_section">
+      <text class="activity_icon iconfont icon-activity"></text>
+      <view class="icon_text">教学活动</view>
+    </view>
+    <view class="right_section">
+      <text class="iconfont icon-left-arrow"></text>
+    </view>
+  </view>
+  <view class="list_item">
+    <view class="left_section">
+      <text class="teacher_icon iconfont icon-teacher"></text>
+      <view class="icon_text">师资力量</view>
+    </view>
+    <view class="right_section">
+      <text class="iconfont icon-left-arrow"></text>
+    </view>
+  </view>
+  <view class="list_item">
+    <view class="left_section">
+      <text class="reputation_icon iconfont icon-reputation"></text>
+      <view class="icon_text">学生风采</view>
+    </view>
+    <view class="right_section">
+      <text class="iconfont icon-left-arrow"></text>
+    </view>
+  </view>
+  <view class="list_item">
+    <view class="left_section">
+      <text class="comment_icon iconfont icon-comment"></text>
+      <view class="icon_text">评论</view>
+    </view>
+    <view class="right_section">
+      <text class="iconfont icon-left-arrow"></text>
+    </view>
+  </view>
+</view>
+<view class="bottom">
+<view class="comment">
+  <text class="comment_icon iconfont icon-comment"></text>
+  <view class="icon_text">发表评论</view>
+</view>
+<view class="favor">
+  <text class="favor_icon iconfont icon-favor"></text>
+  <view class="icon_text">加入收藏</view>
+</view>
+</view>

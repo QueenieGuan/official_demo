@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="page-body">
+    <view class="page-section page-section-gap">
+      <map class="map"
+        latitude="{{latitude}}"
+        longitude="{{longitude}}"
+        markers="{{markers}}"
+        bindmarkertap="markertap"
+        scale="{{scale}}"
+        controls="{{controls}}"
+        bindcontroltap="controltap"
+        >
+      </map>
+    </view>
+  </view>
+</view>

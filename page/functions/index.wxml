@@ -1,0 +1,50 @@
+<view class="main">
+  <view class="btn_group">
+    <view class="funcBtn" bindtap="nearbyBtnClick">
+      <text class="nearby_icon iconfont icon-nearby"></text>
+      <view class="function_name">附近</view>
+    </view>
+    <view class="funcBtn" bindtap="searchBtnClick">
+      <text class="search_icon iconfont icon-search"></text>
+      <view class="function_name">搜索</view>
+    </view>
+    <view class="funcBtn" bindtap="cmopareBtnClick">
+      <text class="compare_icon iconfont icon-compare"></text>
+      <view class="function_name">对比</view>
+    </view>
+  </view>
+
+  <view class="recommend">
+    <text class="recommend_icon iconfont icon-recommend"></text>
+    <view class="recommend_text">热门推荐</view>
+  </view>
+  
+  <view class="list">
+    <view class="list_item" wx:for="{{list}}" wx:key="index" data-index="{{index}}" bindtap="listClick">
+      <view class="big_section">
+        <view class="small_section">
+          <text class="kindergarten_icon iconfont icon-kindergarten"></text>
+          <view class="name">{{item.name}}</view>
+        </view>
+        <view class="small_section">
+          <text class="route_icon iconfont icon-route"></text>
+          <view class="text">{{item.distance}}公里</view>
+        </view>
+      </view>
+      <view class="big_section">
+        <view class="small_section">
+          <text class="price_icon iconfont icon-price"></text>
+          <view class="text">{{item.price}}</view>
+        </view>
+        <view class="small_section">
+          <text class="star_icon iconfont icon-star"></text>
+          <view class="text">{{item.star}}</view>
+        </view>
+        <view class="small_section">
+          <text class="score_icon iconfont icon-score"></text>
+          <view class="text">{{item.score}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
